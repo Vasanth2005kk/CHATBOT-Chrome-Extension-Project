@@ -1,11 +1,11 @@
-###### ChatBot Extension Documentation
+# ChatBot Extension Documentation
 
 
-# Overview
+## Overview
 
 The ChatBot Extension is a Chrome extension that enables a simple chat interface between users and a chatbot backend server, built with Flask and using the Groq API. Users can send messages from the extension's popup interface, which are processed by the backend chatbot server and returned in a formatted response.
 
-# Project Structure
+## Project Structure
 
    1. main.py - Backend server (Flask) with chatbot endpoint.
    2. background.js - Service worker for the Chrome extension.
