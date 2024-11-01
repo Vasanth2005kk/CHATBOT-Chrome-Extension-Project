@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "ChatBot Extension",
+  "version": "1.0",
+  "description": "A chatbot extension",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ChatBot Extension"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
